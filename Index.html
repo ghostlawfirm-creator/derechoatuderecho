@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Derecho a tu Derecho | Expertos en Tránsito y Transporte</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --negro: #1a1a1a;
+            --dorado: #c5a059;
+            --azul-oscuro: #0a192f;
+            --gris-claro: #f8f9fa;
+            --blanco: #ffffff;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            color: var(--negro);
+            scroll-behavior: smooth;
+        }
+
+        /* Navegación */
+        header {
+            background: var(--negro);
+            padding: 1.2rem 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            border-bottom: 2px solid var(--dorado);
+        }
+
+        .logo {
+            color: var(--dorado);
+            font-size: 1.4rem;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        nav a {
+            color: var(--blanco);
+            text-decoration: none;
+            margin-left: 25px;
+            font-size: 0.9rem;
+            transition: 0.3s;
+        }
+
+        nav a:hover { color: var(--dorado); }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+                        url('https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            height: 90vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: var(--blanco);
+        }
+
+        .hero h1 { font-size: 3.5rem; margin-bottom: 10px; }
+        .hero p { font-size: 1.2rem; color: var(--dorado); }
+
+        /* Servicios */
+        .section-title { text-align: center; padding: 50px 0 20px; font-size: 2rem; }
+        
+        .grid-servicios {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 0 8% 50px;
+        }
+
+        .card {
+            background: var(--blanco);
+            padding: 30px;
+            border: 1px solid #ddd;
+            transition: 0.3s;
+            border-bottom: 4px solid var(--negro);
+        }
+
+        .card:hover { 
+            border-bottom: 4px solid var(--dorado);
+            transform: translateY(-5px);
+        }
+
+        .card h3 { color: var(--azul-oscuro); margin-bottom: 15px; }
+        .card p { font-size: 0.95rem; color: #555; }
+
+        /* Sección Noticias */
+        .noticias {
+            background: var(--gris-claro);
+            padding: 60px 8%;
+        }
+
+        /* Botón WhatsApp */
+        .btn-ws {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #25d366;
+            color: white;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            z-index: 1000;
+            text-decoration: none;
+        }
+
+        /* Contacto */
+        .contacto {
+            background: var(--azul-oscuro);
+            color: white;
+            padding: 60px 8%;
+            text-align: center;
+        }
+
+        .cta-button {
+            background: var(--dorado);
+            color: var(--negro);
+            padding: 15px 40px;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">DERECHO A TU DERECHO</div>
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#noticias">Actualización Jurídica</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+</header>
+
+<section class="hero" id="inicio">
+    <h1>Justicia en Movimiento</h1>
+    <p>Especialistas en Derecho de Tránsito, Transporte y Responsabilidad Civil</p>
+    <a href="#servicios" class="cta-button">VER SERVICIOS</a>
+</section>
+
+<h2 class="section-title" id="servicios">Nuestra Especialidad</h2>
+<section class="grid-servicios">
+    <div class="card">
+        <h3>📍 Tránsito y Transporte</h3>
+        <p>Defensa técnica en comparendos, procesos por alcoholemia, accidentes de tránsito y representación ante autoridades competentes.</p>
+    </div>
+    <div class="card">
+        <h3>📄 Licencias de Conducción</h3>
+        <p>Gestión y asesoría legal para la refrendación, recategorización y procesos de suspensión de licencias.</p>
+    </div>
+    <div class="card">
+        <h3>⚖️ Litigio Administrativo</h3>
+        <p>Agotamiento de vía gubernativa, recursos de reposición, apelación y Demandas Contenciosas Administrativas.</p>
+    </div>
+    <div class="card">
+        <h3>🛡️ Protección Constitucional</h3>
+        <p>Interposición de Acciones de Tutela para la protección de derechos fundamentales ante actos administrativos injustos.</p>
+    </div>
+    <div class="card">
+        <h3>🚗 Responsabilidad Civil</h3>
+        <p>Reclamaciones por responsabilidad civil extracontractual derivadas de siniestros viales y daños a terceros.</p>
+    </div>
+    <div class="card">
+        <h3>🏛️ Audiencias Públicas</h3>
+        <p>Representación calificada en audiencias públicas ante inspectores de tránsito y entes territoriales.</p>
+    </div>
+</section>
+
+<section class="noticias" id="noticias">
+    <h2 style="text-align: center;">Actualización Jurídica</h2>
+    <div style="max-width: 800px; margin: 0 auto;">
+        <article style="background: white; padding: 20px; margin-bottom: 20px; border-radius: 5px;">
+            <small>2 de febrero, 2026</small>
+            <h3>¿Cómo impugnar un comparendo por fotomulta este año?</h3>
+            <p>Conoce los términos legales para presentar tu recurso de apelación y proteger tu historial de conductor...</p>
+            <a href="#" style="color: var(--dorado);">Leer más →</a>
+        </article>
+    </div>
+</section>
+
+<section class="contacto" id="contacto">
+    <h2>¿Necesitas asesoría inmediata?</h2>
+    <p>Atención profesional en temas de tránsito y transporte en todo el país.</p>
+    <p>📞 +57 300 263 3535 | ✉️ contacto@derechoatuderecho.com</p>
+    <a href="https://wa.me/573002633535?text=Hola,%20necesito%20asesoría%20jurídica%20especializada" class="cta-button">HABLAR CON UN ABOGADO</a>
+</section>
+
+<a href="https://wa.me/573002633535" class="btn-ws" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+</a>
+
+<footer>
+    <p style="text-align: center; padding: 20px; background: #111; color: #666; margin: 0;">
+        © 2026 Derecho a tu Derecho. Todos los derechos reservados.
+    </p>
+</footer>
+<section style="background: #e9e9e9; padding: 20px 8%; font-size: 0.7rem; color: #666; text-align: justify;">
+    <p><strong>Aviso de Privacidad y Tratamiento de Datos:</strong> En cumplimiento de la Ley 1581 de 2012, informamos que los datos personales suministrados a través de nuestros canales de contacto serán tratados por <strong>Derecho a tu Derecho</strong> para fines de asesoría jurídica, gestión de trámites de tránsito y contacto comercial. Usted puede ejercer sus derechos de conocer, actualizar y rectificar sus datos a través de nuestro correo electrónico.</p>
+</section>
+
+</body>
+</html>
